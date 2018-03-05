@@ -1,0 +1,565 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2|Fjalla+One|Inconsolata|Lobster|Noto+Serif|Nunito|PT+Sans+Narrow|Roboto+Mono');
+
+* {
+	box-sizing: border-box;
+}
+[class*="col-"] {
+	float: left;
+	Min-height: 1px;
+}
+body {
+	background-color: white;
+}
+.container {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+
+}
+.tlo-two {
+	background-color: #f2f2f2;
+}
+.row::before,
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.row-one::before,
+.row-one::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.row-one {
+	margin: 30px;
+}
+
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.col-offset-0 {margin-left: 0;}
+.col-offset-1 {margin-left: 8.33%;}
+.col-offset-2 {margin-left: 16.66%;}
+.col-offset-3 {margin-left: 25%;}
+.col-offset-4 {margin-left: 33.33%;}
+.col-offset-5 {margin-left: 41.66%;}
+.col-offset-6 {margin-left: 50%;}
+.col-offset-7 {margin-left: 58.33%;}
+.col-offset-8 {margin-left: 66.66%;}
+.col-offset-9 {margin-left: 75%;}
+.col-offset-10 {margin-left: 83.33%;}
+.col-offset-11 {margin-left: 91.66%;}
+
+.row {
+	margin: 20px
+}
+/*NAGLOWEK , LOGO I MENU DWUPOZIOMOWE */
+header {
+	background-color: white;
+	height: 180px;
+	font-family: 'Inconsolata';
+	margin: 0 auto;
+}
+header img {
+	height: 120px;
+	width: auto;
+	display: flex;
+	margin: 0 auto;
+}
+
+nav {
+	background-color: white;
+	text-align: center;
+	color: ;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+nav ul {
+	padding: 0;
+	list-style-type: none;
+	z-index: 1;
+
+}
+nav ul li {
+	display: inline-block;
+	position: relative;
+}
+nav ul li a {
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	font-weight: 800;
+	padding: 0 25px;
+	color: green;
+	text-decoration: none;
+	font-size: 20px;
+}
+nav ul li a:hover {
+	background-color: green;
+	color: white;
+	box-sizing: border-box;
+	border: 0px solid green;
+
+
+}
+nav ul li ul li {
+	display: inline-block;
+	color: white;
+}
+nav ul li ul li:hover {
+	background-color: green;
+	color: white;
+
+}
+li > ul {
+	display: none;
+}
+nav ul li:hover ul {
+	display: block;
+	position: absolute;
+	background-color: #b3ffb3;
+	color: white;
+
+	min-width: 100%;
+}
+nav ul li ul li {
+	display: block;
+
+}
+
+
+nav ul li ul li a {
+	padding: 0;
+
+}
+
+/* SEKCJA POWITALNA */
+
+.hero {
+	height: 400px;
+	background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/cW5lDBG/videoblocks-tunnel-from-numbers-and-imitation-of-circuit-board-concept-of-future-internet-business-in-progress_bj5gna0jl_thumbnail-full01.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	margin: 0 -30%;
+}
+
+.slogan {
+	box-sizing: border-box;
+	position: relative;
+	top: 170px;
+	background-color: rgba(37, 37, 40, 0.4);
+	max-width: 800px;
+	width: 800px;
+	height: 85px;
+	margin: 0 auto;
+
+
+}
+.slogan h1 {
+	padding: 10px;
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Lato';
+	font-size: px;
+	font-weight: 100;
+	margin-bottom: ;
+}
+.special {
+	font-weight: 400;
+}
+/* pierwszy naglowek z trescia*/
+.first-header {
+	width: 100%;
+	margin: 25px;
+
+
+}
+
+
+.first-header h2 {
+	float: left;
+	font-size: 30px;
+	font-family: 'Fjalla One', sans-serif;
+	color: #62a400;
+
+}
+.first-header p {
+	float: left;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 20px;
+	text-align: center justify;
+
+
+}
+/* IKONY Z TEKSTEM I FONTY AWESOME */
+.icon i.fa {
+	font-size: 4em;
+	color: white;
+	border: 10px solid #62a400;
+	background-color: #62a400;
+	border-radius: 10%;
+	margin-top: 10px;
+
+}
+.icon {
+	border: 1px solid #dadada;
+	border-radius: 10px;
+	background-color: #dadada;
+	text-align: center;
+	width: 23%;
+	padding: 15px;
+	margin-right: 15px;
+	height: 300px;
+}
+.icon h3 {
+	font-size: 18px;
+	font-family: 'Fjalla One', sans-serif;
+}
+.icon p {
+	font-size: 13px;
+	font-family: 'Exo 2', sans-serif;
+}
+.icon p h3 {
+	max-height: 300px;
+	height: 300px;
+}
+.icon:hover {
+	border: 1px solid #dadada;
+	border-radius: 10px;
+	background-color: #62a400;
+	text-align: center;
+	width: 23%;
+	padding: 15px;
+	margin-right: 15px;
+	color: white;
+	cursor: pointer;
+}
+/* sponsorzy */
+
+.sponsors img {
+	width: 100% auto;
+	height: 120px;
+
+}
+.sponsors h2 {
+	font-family: 'Nunito', sans-serif;
+	font-size: 24px;
+	text-align: center;
+}
+.gallery [class*='col-'] {
+	position: relative;
+	padding: 0;
+	margin: 0 auto;
+	float: left;
+	font-size: 0;
+}
+.gallery img {
+	height: ;
+	width: 16.66vw;
+	object-fit: cover;
+}
+.layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0,0,0,0.4);
+}
+.photo:hover .layer {
+  opacity: 1;
+}
+
+.texty {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+}
+.photo {
+	overflow: hidden;
+}
+
+
+/* druga fotografia */
+
+.tlo {
+	background-image: url("http://sugikingdom.com/wp-content/uploads/2016/06/Youtube-sub-network.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 400px;
+}
+.experience {
+
+	margin: 0 auto;
+	font-family: 'Lato';
+	text-align: center;
+
+
+}
+.gwaranty {
+	border: 1px solid rgba(37, 37, 40, 0.4);
+	justify-content: space-around;
+	background-color: rgba(37, 37, 40, 0.4);
+	margin-top: 35px;
+
+
+
+	height: 330px;
+
+}
+
+.gwaranty, h2 p {
+	color: white;
+
+}
+
+.gwaranty h2 {
+	font-size: 18px;
+	font-family: 'Lato';
+	text-align: center;
+}
+.gwaranty p {
+	font-size: 13px;
+	font-family: 'Lato';
+	text-align: justify;
+	margin: 15px;
+}
+
+
+.gwaranty i.fa {
+	font-size: 5em;
+	color: grey;
+	border: 12px solid white;
+	background-color: white;
+	border-radius: 50%;
+	margin: 5px;
+}
+.gwaranty i.fa:hover {
+
+	color: white;
+	border: 12px solid rgba(37, 37, 40, 0.4);
+	background-color: rgba(37, 37, 40, 0.4);
+	border-radius: 50%;
+}
+
+/* STOPKI */
+
+.contact h2 {
+	font-family: 'Lato';
+	font-size: 28px;
+	text-align: center;
+	color: #62a400;
+
+}
+
+.contact ul li {
+	font-family: 'Lato';
+	font-size: 16px;
+	color: orange;
+	display: block;
+
+}
+.contact {
+	background-color:  #f2f2f2;
+
+}
+
+.clients h2 {
+	font-family: 'Lato';
+	font-size: 28px;
+	text-align: center;
+	color: #62a400;
+	text-transform: uppercase;
+}
+.clients h3 {
+	font-family: 'Lato';
+	font-size: 22px;
+	text-align: right;
+	color: #62a400;
+	margin-right: 30px;
+}
+
+.clients p {
+	font-family: 'Lato';
+	font-size: 16px;
+	color: orange;
+	text-align: justify;
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
+.clients {
+	background-color:  #f2f2f2;
+
+
+}
+
+
+
+.foot-three {
+	background-color:  #f2f2f2;
+}
+
+.przycisk {
+	display: inline-block;
+	margin-left: 40px;
+	padding: 10px 20px;
+	min-width: 100px;
+	font-size: 16px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.7s;
+	transition-duration: 1s;
+	background-color: inherit;
+	border: 2px solid;
+	border-color: #62a400;
+	color: #62a400;
+	background-image: linear-gradient(90deg, #62a400 50%, transparent 50%);
+	background-position: 100% 0;
+	background-size: 300%;
+	font-family: 'Lato';
+}
+.przycisk:hover {
+	background-position: 0 100%;
+	color: white;
+}
+/* SOCIAL MEDIA */
+.foot-two h2 {
+	font-family: 'Lato';
+	font-size: 35px;
+	color: #62a400;
+	text-align: center;
+
+}
+.foot-two {
+	background-color: #f2f2f2;
+
+}
+.foot-two h3 {
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Lato';
+	color: orange;
+}
+
+
+
+
+.icon-btn {
+	width: 110px;
+	height: 110px;
+	background-color: #b3b3b3;
+	border-radius:;
+	margin: 25px;
+	border: 0;
+	cursor: pointer;
+	font-size: 55px;
+	text-align: center;
+	border-radius: 50%;
+
+}
+
+
+
+.icon-btn:hover {
+	transform: scale(1.10);
+
+}
+.icon-btn, .icon-btn i.fa {
+	transition: ease-in-out 1s;
+
+}
+.icon-btn:hover i.fa {
+	color: white;
+}
+
+.facebook:hover {
+	background-color: #3B5998;
+}
+.facebook i.fa {
+	color: #3B5998;
+
+}
+.twitter:hover {
+	background-color: #4099FF;
+
+}
+.twitter i.fa {
+	color: #4099FF;
+
+}
+.instagram:hover {
+	background-color: #5C3D2E;
+
+}
+.instagram i.fa {
+	color: #5C3D2E;
+
+}
+.google-plus:hover {
+	background-color: #DB5A3C;
+
+}
+.google-plus i.fa {
+
+	color: #DB5A3C;
+}
+.github:hover {
+	background-color: #4183C4;
+
+}
+.github i.fa {
+	color: #4183C4;
+
+}
+.youtube:hover {
+	background-color: red;
+
+}
+.youtube i.fa {
+
+	color: red;
+}
+.snapchat:hover {
+	background-color: yellow;
+
+}
+.snapchat i.fa {
+	color: yellow;
+
+}
+.foot-one {
+	background-color: rgb(51, 51, 51);
+}
+.foot-one h3 {
+
+	font-size: 20px;
+	font-family: 'Lato';
+	text-align: center;
+	color: white;
+
+}
